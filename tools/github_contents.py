@@ -103,7 +103,7 @@ class GitHubContentsClient:
         result = self._run_api(
             [
                 "-H",
-                "Accept: application/vnd.github.raw",
+                "Accept: application/vnd.github.raw+json",
                 self.build_read_endpoint(path),
             ],
             text=False,
