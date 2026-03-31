@@ -35,35 +35,52 @@ jobs:
 
       - name: Fetch tool files
         run: |
-          $ErrorActionPreference = 'Stop'
-          $files = @(
-            'tools/modules.json',
-            'tools/github_contents.py',
-            'tools/winbindex_urls.py',
-            'tools/sync_symbols.py',
-            'tools/main.py',
-            'tools/pipeline/__init__.py',
-            'tools/pipeline/config.py',
-            'tools/pipeline/merge.py',
-            'tools/pipeline/utils.py',
-            'tools/pipeline/worker.py',
-            'tools/tools/fetch_ms_symbol.py',
-            'tools/tools/PdbJsonExporter/PdbJsonExporter.exe',
-            'tools/tools/PdbJsonExporter/PdbJsonExporter.pdb'
-          )
+          @'
+          import os
+          import subprocess
+          import sys
+          from pathlib import Path
 
-          foreach ($file in $files) {
-            $target = Join-Path '.' $file
-            $parent = Split-Path -Parent $target
-            if ($parent) {
-              New-Item -ItemType Directory -Force -Path $parent | Out-Null
-            }
+          files = [
+              "tools/modules.json",
+              "tools/github_contents.py",
+              "tools/winbindex_urls.py",
+              "tools/sync_symbols.py",
+              "tools/main.py",
+              "tools/pipeline/__init__.py",
+              "tools/pipeline/config.py",
+              "tools/pipeline/merge.py",
+              "tools/pipeline/utils.py",
+              "tools/pipeline/worker.py",
+              "tools/tools/fetch_ms_symbol.py",
+              "tools/tools/PdbJsonExporter/PdbJsonExporter.exe",
+              "tools/tools/PdbJsonExporter/PdbJsonExporter.pdb",
+          ]
 
-            gh api `
-              -H 'Accept: application/vnd.github.raw' `
-              "repos/$env:TARGET_REPO/contents/$file?ref=$env:TARGET_REF" `
-              --output $target
-          }
+          repo = os.environ["TARGET_REPO"]
+          ref = os.environ["TARGET_REF"]
+
+          for file_path in files:
+              target = Path(file_path)
+              target.parent.mkdir(parents=True, exist_ok=True)
+
+              command = [
+                  "gh",
+                  "api",
+                  "-H",
+                  "Accept: application/vnd.github.raw+json",
+                  f"repos/{repo}/contents/{file_path}?ref={ref}",
+              ]
+              with target.open("wb") as handle:
+                  result = subprocess.run(command, stdout=handle, stderr=subprocess.PIPE)
+
+              if result.returncode != 0:
+                  error_text = result.stderr.decode("utf-8", errors="replace").strip()
+                  print(f"failed to fetch {file_path}: {error_text}", file=sys.stderr)
+                  raise SystemExit(result.returncode)
+
+              print(f"fetched {file_path}")
+          '@ | python -
 
       - name: Run sync
         run: |
