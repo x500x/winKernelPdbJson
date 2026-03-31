@@ -1,0 +1,11 @@
+{
+  "modules": [
+    "ci.dll",
+    "fltmgr.sys",
+    "hal.dll",
+    "ntoskrnl.exe",
+    "win32k.sys",
+    "win32kbase.sys",
+    "win32kfull.sys"
+  ]
+}
