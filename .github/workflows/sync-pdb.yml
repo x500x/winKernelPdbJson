@@ -1,0 +1,84 @@
+name: Sync PDB JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-pdb-json
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: windows-latest
+    timeout-minutes: 360
+    defaults:
+      run:
+        shell: pwsh
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TARGET_REPO: x500x/winKernelPdbJson
+      TARGET_REF: main
+      WORK_DIR: work
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Check gh
+        run: gh --version
+
+      - name: Fetch tool files
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $files = @(
+            'tools/modules.json',
+            'tools/github_contents.py',
+            'tools/winbindex_urls.py',
+            'tools/sync_symbols.py',
+            'tools/main.py',
+            'tools/pipeline/__init__.py',
+            'tools/pipeline/config.py',
+            'tools/pipeline/merge.py',
+            'tools/pipeline/utils.py',
+            'tools/pipeline/worker.py',
+            'tools/tools/fetch_ms_symbol.py',
+            'tools/tools/PdbJsonExporter/PdbJsonExporter.exe',
+            'tools/tools/PdbJsonExporter/PdbJsonExporter.pdb'
+          )
+
+          foreach ($file in $files) {
+            $target = Join-Path '.' $file
+            $parent = Split-Path -Parent $target
+            if ($parent) {
+              New-Item -ItemType Directory -Force -Path $parent | Out-Null
+            }
+
+            gh api `
+              -H 'Accept: application/vnd.github.raw' `
+              "repos/$env:TARGET_REPO/contents/$file?ref=$env:TARGET_REF" `
+              --output $target
+          }
+
+      - name: Run sync
+        run: |
+          python tools/sync_symbols.py `
+            --repo $env:TARGET_REPO `
+            --branch $env:TARGET_REF `
+            --work-dir $env:WORK_DIR `
+            --workers 5
+
+      - name: Print summary
+        if: always()
+        run: |
+          $summaryPath = Join-Path $env:WORK_DIR 'summary.json'
+          if (Test-Path $summaryPath) {
+            Get-Content $summaryPath
+          } else {
+            Write-Host 'summary.json not found'
+          }
