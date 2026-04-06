@@ -1,7 +1,0 @@
-https://msdl.microsoft.com/download/symbols/win32k.sys/E92D782Eab000/win32k.sys
-https://msdl.microsoft.com/download/symbols/win32k.sys/E92D782Eaa000/win32k.sys
-https://msdl.microsoft.com/download/symbols/win32k.sys/E92D782Ea9000/win32k.sys
-https://msdl.microsoft.com/download/symbols/win32k.sys/E92D782Ea8000/win32k.sys
-https://msdl.microsoft.com/download/symbols/win32k.sys/E92D782Ea7000/win32k.sys
-https://msdl.microsoft.com/download/symbols/win32k.sys/E92D782Ea6000/win32k.sys
-https://msdl.microsoft.com/download/symbols/win32k.sys/E92D782Ea5000/win32k.sys
