@@ -3,8 +3,6 @@ https://msdl.microsoft.com/download/symbols/win32kfull.sys/649A560D386000/win32k
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/649A58F62eb000/win32kfull.sys
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/5CF0C261387000/win32kfull.sys
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/5CF0C22C2eb000/win32kfull.sys
-https://msdl.microsoft.com/download/symbols/win32kfull.sys/5CFAE0C840e000/win32kfull.sys
-https://msdl.microsoft.com/download/symbols/win32kfull.sys/63122B5A422000/win32kfull.sys
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/63122B5A421000/win32kfull.sys
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/63122B5A420000/win32kfull.sys
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/63122B5A41f000/win32kfull.sys
