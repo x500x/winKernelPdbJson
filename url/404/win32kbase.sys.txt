@@ -1,6 +1,4 @@
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/649A55D817e000/win32kbase.sys
-https://msdl.microsoft.com/download/symbols/win32kbase.sys/D3D86C66332000/win32kbase.sys
-https://msdl.microsoft.com/download/symbols/win32kbase.sys/49AA94D433c000/win32kbase.sys
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/49AA94D433b000/win32kbase.sys
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/49AA94D433a000/win32kbase.sys
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/49AA94D4339000/win32kbase.sys
