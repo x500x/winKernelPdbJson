@@ -106,3 +106,4 @@ https://msdl.microsoft.com/download/symbols/fltMgr.sys/17F86D0393000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/9769250D94000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/C56A768595000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/9E9F285594000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/4F5E1B2C94000/fltMgr.sys
