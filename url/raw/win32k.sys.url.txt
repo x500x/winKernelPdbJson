@@ -698,3 +698,5 @@ https://msdl.microsoft.com/download/symbols/win32k.sys/9F5CE98857000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/E92D782Eac000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/CE1BB5A6c7000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/17CBDA78ca000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/760F2F97c7000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/587F9570ca000/win32k.sys
