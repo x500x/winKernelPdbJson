@@ -1474,3 +1474,5 @@ https://msdl.microsoft.com/download/symbols/win32kfull.sys/A16A0D1B2b6000/win32k
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/1AD1F94D3d9000/win32kfull.sys
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/B2AB187B410000/win32kfull.sys
 https://msdl.microsoft.com/download/symbols/win32kfull.sys/A7783E8C41c000/win32kfull.sys
+https://msdl.microsoft.com/download/symbols/win32kfull.sys/6381320D411000/win32kfull.sys
+https://msdl.microsoft.com/download/symbols/win32kfull.sys/69710E20420000/win32kfull.sys
