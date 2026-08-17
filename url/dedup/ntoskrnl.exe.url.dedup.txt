@@ -1158,3 +1158,9 @@ https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/EE92D2E81459000/ntoskrn
 https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/98FC08951450000/ntoskrnl.exe
 https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/51A135D91450000/ntoskrnl.exe
 https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/E72F90AD1459000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/6A77522F81f000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/26C3F3A0a6f000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/7C0315511046000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/8E488D651047000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/BA71B4FD1450000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/7432672A1459000/ntoskrnl.exe
