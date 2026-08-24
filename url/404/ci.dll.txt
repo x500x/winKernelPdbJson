@@ -1,8 +1,1 @@
 https://msdl.microsoft.com/download/symbols/ci.dll/649A574Fa2000/ci.dll
-https://msdl.microsoft.com/download/symbols/ci.dll/33517F23f0000/ci.dll
-https://msdl.microsoft.com/download/symbols/ci.dll/33517F23ef000/ci.dll
-https://msdl.microsoft.com/download/symbols/ci.dll/33517F23ee000/ci.dll
-https://msdl.microsoft.com/download/symbols/ci.dll/33517F23ed000/ci.dll
-https://msdl.microsoft.com/download/symbols/ci.dll/33517F23eb000/ci.dll
-https://msdl.microsoft.com/download/symbols/ci.dll/33517F23ea000/ci.dll
-https://msdl.microsoft.com/download/symbols/ci.dll/33517F23e9000/ci.dll
