@@ -9,3 +9,14 @@ https://msdl.microsoft.com/download/symbols/win32k.sys/1350AA9Fc5000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/1350AA9Fc4000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/1350AA9Fc3000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/1350AA9Fc2000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7cd000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7cc000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7cb000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7c9000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7c8000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7c7000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7c6000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7c5000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7c4000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7c3000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/E0CD9BC7c2000/win32k.sys
