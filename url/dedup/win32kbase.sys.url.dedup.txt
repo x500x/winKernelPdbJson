@@ -821,3 +821,9 @@ https://msdl.microsoft.com/download/symbols/win32kbase.sys/D072766B33f000/win32k
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/6A97941D17b000/win32kbase.sys
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/A9DBE714344000/win32kbase.sys
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/AB8B624C344000/win32kbase.sys
+https://msdl.microsoft.com/download/symbols/win32kbase.sys/6AC8D46917d000/win32kbase.sys
+https://msdl.microsoft.com/download/symbols/win32kbase.sys/E5641263257000/win32kbase.sys
+https://msdl.microsoft.com/download/symbols/win32kbase.sys/3313F86D31c000/win32kbase.sys
+https://msdl.microsoft.com/download/symbols/win32kbase.sys/AB1DFC97345000/win32kbase.sys
+https://msdl.microsoft.com/download/symbols/win32kbase.sys/8EB04DF4346000/win32kbase.sys
+https://msdl.microsoft.com/download/symbols/win32kbase.sys/B5D515792d8000/win32kbase.sys
