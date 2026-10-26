@@ -1,7 +1,0 @@
-https://msdl.microsoft.com/download/symbols/fltMgr.sys/741936D472000/fltMgr.sys
-https://msdl.microsoft.com/download/symbols/fltMgr.sys/741936D471000/fltMgr.sys
-https://msdl.microsoft.com/download/symbols/fltMgr.sys/741936D470000/fltMgr.sys
-https://msdl.microsoft.com/download/symbols/fltMgr.sys/741936D46f000/fltMgr.sys
-https://msdl.microsoft.com/download/symbols/fltMgr.sys/741936D46e000/fltMgr.sys
-https://msdl.microsoft.com/download/symbols/fltMgr.sys/741936D46c000/fltMgr.sys
-https://msdl.microsoft.com/download/symbols/fltMgr.sys/741936D46b000/fltMgr.sys
