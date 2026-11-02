@@ -112,3 +112,13 @@ https://msdl.microsoft.com/download/symbols/fltMgr.sys/49A4C6F494000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/54AD72BC9a000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/8B5B3B2894000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/741936D46d000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/FFBCFC4E92000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D797000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D796000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D795000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D794000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D793000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D792000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D791000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D790000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/C94D54D78f000/fltMgr.sys
