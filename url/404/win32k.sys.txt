@@ -22,3 +22,16 @@ https://msdl.microsoft.com/download/symbols/win32k.sys/9731B464c3000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/9731B464c2000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/9731B464c1000/win32k.sys
 https://msdl.microsoft.com/download/symbols/win32k.sys/9731B464c0000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAcd000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAcc000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAcb000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAca000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc9000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc7000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc6000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc5000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc4000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc3000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc2000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc1000/win32k.sys
+https://msdl.microsoft.com/download/symbols/win32k.sys/B6A193AAc0000/win32k.sys
