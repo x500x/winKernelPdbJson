@@ -130,3 +130,4 @@ https://msdl.microsoft.com/download/symbols/fltMgr.sys/05531F7192000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/05531F7191000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/05531F7190000/fltMgr.sys
 https://msdl.microsoft.com/download/symbols/fltMgr.sys/05531F718f000/fltMgr.sys
+https://msdl.microsoft.com/download/symbols/fltMgr.sys/839E031C92000/fltMgr.sys
