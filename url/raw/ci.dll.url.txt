@@ -589,3 +589,5 @@ https://msdl.microsoft.com/download/symbols/ci.dll/520D692B119000/ci.dll
 https://msdl.microsoft.com/download/symbols/ci.dll/520D692B118000/ci.dll
 https://msdl.microsoft.com/download/symbols/ci.dll/520D692B117000/ci.dll
 https://msdl.microsoft.com/download/symbols/ci.dll/520D692B116000/ci.dll
+https://msdl.microsoft.com/download/symbols/ci.dll/14E5C89711e000/ci.dll
+https://msdl.microsoft.com/download/symbols/ci.dll/CB4A1BBB11a000/ci.dll
