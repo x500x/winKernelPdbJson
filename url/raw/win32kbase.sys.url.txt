@@ -900,3 +900,5 @@ https://msdl.microsoft.com/download/symbols/win32kbase.sys/9FE74235326000/win32k
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/9FE74235325000/win32kbase.sys
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/9FE74235324000/win32kbase.sys
 https://msdl.microsoft.com/download/symbols/win32kbase.sys/6D58CBF52d8000/win32kbase.sys
+https://msdl.microsoft.com/download/symbols/win32kbase.sys/8ABFD903347000/win32kbase.sys
+https://msdl.microsoft.com/download/symbols/win32kbase.sys/8507250D33c000/win32kbase.sys
